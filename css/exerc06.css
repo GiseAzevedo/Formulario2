@@ -1,0 +1,52 @@
+H1{
+    font-family: Arial;
+    font-size: 25px;
+}
+
+
+.formLogin{
+    width: 250px;
+    margin: 50px auto 0;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.formLogin label{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formLogin fieldset{
+    background-color: rgb(248, 237, 238);
+}
+
+.formLogin legend{
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+#user, #pass, .btn{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+    background: rgb(248, 237, 238);
+    
+}
+
+#user:focus, #pass:focus,.btn:focus{
+    background: #fff;
+}
+
+
+.btn{
+    margin-top: 10px;
+    
+}
+
+#user{
+    margin-bottom: 15px;
+}
